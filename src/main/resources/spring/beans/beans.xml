@@ -9,7 +9,7 @@ http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
    </bean>
  
    <bean id="personSupportDao" class="com.dimitrisli.springMySQL.dao.PersonDaoSupportImpl" >
-   		<property name="dataSource" ref="dataSource"></property>
+   		<property name="dataSource" ref="dataSourceDBCP"></property>
    </bean>
  
 </beans>
